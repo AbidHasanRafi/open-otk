@@ -1,0 +1,70 @@
+# Example Documents for RAG System
+
+This file contains sample documents that can be loaded into the RAG system.
+
+[
+    {
+        "text": "Python is a high-level, interpreted programming language known for its simplicity and readability. Created by Guido van Rossum and first released in 1991, Python emphasizes code readability with its notable use of significant whitespace. It supports multiple programming paradigms including procedural, object-oriented, and functional programming.",
+        "metadata": {
+            "topic": "Python",
+            "category": "Programming Languages",
+            "difficulty": "Beginner"
+        }
+    },
+    {
+        "text": "Machine Learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. It focuses on the development of computer programs that can access data and use it to learn for themselves. The process of learning begins with observations or data to look for patterns and make better decisions in the future.",
+        "metadata": {
+            "topic": "Machine Learning",
+            "category": "AI/ML",
+            "difficulty": "Intermediate"
+        }
+    },
+    {
+        "text": "Ollama is an open-source tool that allows you to run large language models locally on your machine. It provides a simple API for creating, running, and managing models. Ollama supports various models including Llama 2, Mistral, Code Llama, and many others. It's designed to make running LLMs as easy as possible.",
+        "metadata": {
+            "topic": "Ollama",
+            "category": "Tools",
+            "difficulty": "Beginner"
+        }
+    },
+    {
+        "text": "Neural networks are computing systems inspired by the biological neural networks that constitute animal brains. They consist of layers of interconnected nodes (neurons) that process information. Each connection can transmit a signal from one neuron to another. The receiving neuron processes the signal and signals downstream neurons connected to it.",
+        "metadata": {
+            "topic": "Neural Networks",
+            "category": "AI/ML",
+            "difficulty": "Advanced"
+        }
+    },
+    {
+        "text": "RAG (Retrieval Augmented Generation) is a technique that combines information retrieval with text generation. It works by first retrieving relevant documents from a knowledge base, then using those documents as context for generating responses. This approach helps reduce hallucinations and provides more accurate, grounded responses.",
+        "metadata": {
+            "topic": "RAG",
+            "category": "AI/ML",
+            "difficulty": "Intermediate"
+        }
+    },
+    {
+        "text": "Natural Language Processing (NLP) is a branch of artificial intelligence that helps computers understand, interpret, and manipulate human language. NLP draws from many disciplines including computer science and computational linguistics to bridge the gap between human communication and computer understanding.",
+        "metadata": {
+            "topic": "NLP",
+            "category": "AI/ML",
+            "difficulty": "Intermediate"
+        }
+    },
+    {
+        "text": "Git is a distributed version control system for tracking changes in source code during software development. It was created by Linus Torvalds in 2005. Git is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows.",
+        "metadata": {
+            "topic": "Git",
+            "category": "Development Tools",
+            "difficulty": "Beginner"
+        }
+    },
+    {
+        "text": "Docker is a platform designed to help developers build, share, and run modern applications. It handles the tedious setup so you can focus on the code. Docker uses containerization technology to package applications and their dependencies together, ensuring they run consistently across different environments.",
+        "metadata": {
+            "topic": "Docker",
+            "category": "DevOps",
+            "difficulty": "Intermediate"
+        }
+    }
+]
